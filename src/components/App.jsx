@@ -1,3 +1,10 @@
+import React from 'react';
+import FeedbackStatistics from './FeedbackStatistics/FeedbackStatistics';
+
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <FeedbackStatistics />
+    </div>
+  );
 };
